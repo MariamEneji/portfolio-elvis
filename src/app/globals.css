@@ -3,19 +3,54 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #4d6d9a;
+  --foreground: #161925;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #4d6d9a;
+    --foreground: #F7F9F2;
   }
 }
 
+html{
+  scroll-behavior: smooth;
+}
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.hero-back{
+  background-image: linear-gradient(45deg, rgb(12, 15, 24), rgba(76, 78, 147, 0.1)), url('../../public/assets/bg3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+.skills-back{
+  background-image: linear-gradient(45deg, rgb(12, 15, 24), rgba(76, 78, 147, 0.1)), url('../../public/assets/bg3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.experience{
+  background:linear-gradient(90deg,  rgba(75, 41, 91, 0.545), rgb(22, 25, 37)) ;
+}
+
+.skills{
+  background: linear-gradient(90deg, rgb(22, 25, 37), rgba(75, 41, 91, 0.545)) ;
+}
+.background1{
+  background: rgb(237,181,191);
+background: linear-gradient(156deg, rgba(237,181,191,1) 3%, rgba(77,109,154,1) 58%, rgba(95,99,102,1) 100%);
+}
+
+.background2{
+  background: rgb(0,0,0);
+background: linear-gradient(175deg, rgba(22, 22, 56, 0.862) 5%, rgba(77,109,154,1) 68%);
+}
+

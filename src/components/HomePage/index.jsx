@@ -3,16 +3,24 @@
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
-import HomePage from "@/components/HomePage";
+
 import Navbar from "@/components/Navbar";
 
 import Skills from "@/components/Skills";
-import Image from "next/image";
 
-export default function Home() {
+import React from 'react'
+
+
+const HomePage = () => {
   return (
-   <div>
-   <HomePage />
-   </div>
-  );
+    <div>
+       <Navbar />
+    <Hero />
+    <Experience />
+    <Skills />
+    <Footer />
+    </div>
+  )
 }
+
+export default HomePage
