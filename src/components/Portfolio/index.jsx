@@ -14,7 +14,7 @@ const PortfolioComponent
   return (
 
     <div className='portfolio-back min-h-screen flex flex-col justify-center  '>
-     <a href="/"><FaArrowLeft className='text-4xl fixed border border-white top-10 left-10'/></a>
+     <a href="/"><FaArrowLeft className='text-4xl fixed border border-white top-10 left-10 animate-bounce'/></a>
     <div className='flex flex-col justify-between items-center text-center '>
 
        
