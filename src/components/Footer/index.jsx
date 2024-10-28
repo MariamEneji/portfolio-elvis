@@ -5,7 +5,7 @@ import { IoMdWatch } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <div id='footer' className='w-screen flex  justify-between items-center bg-black  px-4 py-6 md:px-8 backdrop-blur-md shadow-xl '>
+    <div id='footer' className='w-screen flex absolute bottom-0 justify-between items-center bg-black  px-4 py-2 md:px-8 backdrop-blur-md shadow-xl '>
         <div className='w-full text-2xl hidden md:flex'>
             <h1  >Contact Me:</h1>
         </div>

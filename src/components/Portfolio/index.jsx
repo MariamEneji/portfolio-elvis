@@ -13,35 +13,33 @@ const PortfolioComponent
  = () => {
   return (
 
-    <div className='portfolio-back  '>
+    <div className='portfolio-back min-h-screen flex flex-col justify-center  '>
      <a href="/"><FaArrowLeft className='text-4xl fixed border border-white top-10 left-10'/></a>
-    <div className='flex flex-col justify-center items-center text-center '>
-    <div className='h-screen w-1/2 flex flex-col justify-center gap-4 items-center text-center '>  
+    <div className='flex flex-col justify-between items-center text-center '>
+
        
 
-       <h1 className='text-center text-4xl'>Hi, I'm Elvis</h1>
-       <div className='w-20 h-1 bg-white' />
+       <h1 className='text-center text-4xl tracking-widest'>MY WORK</h1>
+   
        
-       <p>.... and Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt quasi iusto dignissimos dolore doloremque saepe laboriosam nemo, numquam harum commodi?</p>
+
    
-   
+{/*    
        <div className='flex gap-4 mt-4'>
          <a href="#published" className="animate-bounce text-center  text-primary hover:text-secondary   cursor-pointer border-primary border hover:bg-primary rounded px-3 py-1 ">
            Published Articles
          </a>
    
-         <a href="#unpublished" className="animate-bounce text-center  text-primary hover:text-secondary   cursor-pointer border-primary border hover:bg-primary rounded px-3 py-1 ">
-           Unpublished Articles
-         </a>
-        </div>
+        </div> */}
+       
+ 
+       <Published />
     
-       </div>
     </div>
    
-      <Published />
-      <Unplished />
-      <Footer />
+  
 
+    
      
     
  

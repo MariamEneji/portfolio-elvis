@@ -17,8 +17,8 @@ import Footer from '../Footer'
 
 const Published = () => {
   return (
-    <div id='published' className='h-screen flex flex-col justify-center items-center '>
-    <h1 className='text-primary text-4xl mb-4'>Published Articles</h1>
+    <div id='published' className=' flex flex-col justify-center items-center '>
+    {/* <h1 className='text-primary text-4xl mb-4'>Published Articles</h1> */}
        
     <Carousel className='' >
 
@@ -45,12 +45,12 @@ const Published = () => {
     url: 'https://medium.com/@anselmelvis62/stablecoin-in-nigeria-its-adoption-and-challenges-66dec8e5bd0e'
 }
 ].map((skill, index) => (
-<CarouselItem key={index} className='w-40 flex justify-center items-center'>
+<CarouselItem key={index} className='w-40 h-[32rem] flex justify-center items-center'>
 
 <div className=' flex justify-center gap-8 items-center flex-col text-center'>
 
   
-    <Image src={skill.image} alt='alt' width={400} height={400} className='h-40 md:h-48 rounded-lg   '  />
+    <Image src={skill.image} alt='alt' width={1000} height={1000} className='w-2/3 h-60 md:h-80 rounded-lg   '  />
 
     
 
