@@ -41,7 +41,7 @@ const Navbar = () => {
           </a>
         </ul>
         <Link href="#footer">
-            <button className="animate-bounce hidden md:flex text-primary hover:text-secondary   cursor-pointer border-primary border hover:bg-primary rounded px-3 py-1 ">Let's Connect</button>
+            <button className=" hidden md:flex text-primary hover:text-secondary   cursor-pointer border-primary border hover:bg-primary rounded px-3 py-1 ">Let's Connect</button>
           </Link>
 
         <button

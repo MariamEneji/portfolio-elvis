@@ -10,26 +10,26 @@ const Footer = () => {
             <h1  >Contact Me:</h1>
         </div>
      <div className="flex  w-full items-center gap-8 py-4 justify-center  md:justify-end">
-            <div className="animate-bounce rounded-full shadow-lg shadow-[#797a80] p-4 cursor-pointer hover:scale-105 duration-300">
+            <div className=" rounded-full shadow-lg shadow-[#797a80] p-4 cursor-pointer hover:scale-105 duration-300">
               <a href="https://www.linkedin.com/in/elvisanselm" target="_blank">
                 <FaLinkedinIn />
               </a>
             </div>
 
-            <div className="animate-bounce rounded-full shadow-lg shadow-[#797a80] p-4 cursor-pointer hover:scale-105 duration-300">
+            <div className=" rounded-full shadow-lg shadow-[#797a80] p-4 cursor-pointer hover:scale-105 duration-300">
               <a href="https://medium.com/@anselmelvis62" target="_blank">
                 <FaMedium />
               </a>
             </div>
 
-            <div className="animate-bounce rounded-full shadow-lg shadow-[#797a80] p-4 cursor-pointer hover:scale-105 duration-300">
+            <div className=" rounded-full shadow-lg shadow-[#797a80] p-4 cursor-pointer hover:scale-105 duration-300">
               <a href="https://hackernoon.com/u/theelvace" target="_blank">
                 <IoMdWatch />
               </a>
             </div>
 
 
-            <div className="animate-bounce rounded-full shadow-lg shadow-[#797a80] p-4 cursor-pointer hover:scale-105 duration-300">
+            <div className=" rounded-full shadow-lg shadow-[#797a80] p-4 cursor-pointer hover:scale-105 duration-300">
               <a href="mailto:anselmelvis62@gmail.com" target="_blank">
                 {" "}
                 <BsFillPersonLinesFill />

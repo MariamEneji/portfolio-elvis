@@ -7,8 +7,8 @@ import Image from 'next/image'
 
 const Experience = () => {
   return (
-    <section className=" md:relative  px-4 md:px-10 py-10 md:py-16 flex flex-col gap-8 justify-center md:h-[90vh] items-center duration-1000 transition-opacity delay-50 ease-in " >
-      <div className='md:w-2/3  flex flex-col gap-8 md:absolute md:-top-20 md:bg-black md:bg-opacity-60 md:py-10 md:px-20 md:rounded-lg ' >
+    <section className="  px-4 md:px-10 py-10 md:py-16 flex flex-col gap-8 justify-center  items-center duration-1000 transition-opacity delay-50 ease-in " >
+      <div className='md:w-2/3  flex flex-col gap-8  md:bg-black md:bg-opacity-60 md:py-10 md:px-20 md:rounded-lg ' >
       <h3 className="text-4xl font-bold text-center mb-8 "  id='experience'>Professional Experience</h3>
     <div className=" flex flex-col gap-8 ">
       {[
