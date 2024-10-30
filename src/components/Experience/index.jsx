@@ -1,7 +1,7 @@
 import React from 'react'
 import plena from '../../../public/assets/plena.jpg.png'
 import cillionaire from '../../../public/assets/cillionaire.jpg'
-import unchained from '../../../public/assets/unchained.png'
+import unchained from '../../../public/assets/unchained.jpeg'
 import am4 from '../../../public/assets/4ammarketing.jpeg'
 import Image from 'next/image'
 

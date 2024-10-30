@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <section className="px-4 flex flex-col justify-center h-[80vh] md:px-10 py-10 md:py-16 skills-back" id='skills'>
+    <section className="px-4 flex flex-col justify-center h-[100vh] md:px-10 py-10 md:py-16 skills-back" id='skills'>
     <h3 className="text-4xl text-center  font-bold mb-8">Skills</h3>
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
       {[

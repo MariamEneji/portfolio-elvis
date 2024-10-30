@@ -4,6 +4,8 @@ import { FaLinkedinIn, FaGithub, FaMedium, FaHackerrank } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { IoMdWatch } from "react-icons/io";
 import Link from "next/link";
+import logo from '../../../public/assets/logo.png'
+import Image from "next/image";
 
 
 
@@ -17,11 +19,12 @@ const Navbar = () => {
   return (
     <div>
       <div className="fixed w-screen z-10  flex  justify-between items-center border-b border-[#371d33] px-4 py-6 md:px-10 backdrop-blur-md shadow-xl ">
-        <Link href={"/"}>
-          {" "}
-          <h1 className="text-4xl hover:text-primary cursor-pointer ">
-            LOGO
-          </h1>
+        <Link href={"/"} >
+          <div className=" cursor-pointer h-10 flex items-center hover:scale-110 ">
+          <Image alt="alt" width={100} height={100} src={logo} className="" />
+          </div>
+         
+          
         </Link>
 
         <ul className="hidden md:flex gap-12 items-center">
@@ -58,7 +61,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 right-0 top-20  md:hidden text-xl bg-support text-right  flex flex-col  p-4 ease-in duration-1000 "
+              ? "fixed left-0 right-0 top-20  md:hidden text-xl bg-secondary text-right  flex flex-col  p-4 ease-in duration-1000 "
               : "hidden"
           }
           onClick={handleNav}
@@ -98,25 +101,25 @@ const Navbar = () => {
           </ul>
 
           <div className=" flex  w-full items-center gap-4 py-4 justify-end">
-            <div className="animate-bounce rounded-full shadow-lg shadow-[#161925] p-2 cursor-pointer hover:scale-105 duration-300">
+            <div className=" rounded-full shadow-lg shadow-[#161925] p-2 cursor-pointer hover:scale-105 duration-300">
               <a href="https://www.linkedin.com/in/elvisanselm" target="_blank">
                 <FaLinkedinIn />
               </a>
             </div>
 
-            <div className="animate-bounce rounded-full shadow-lg shadow-[#161925] p-2 cursor-pointer hover:scale-105 duration-300">
+            <div className=" rounded-full shadow-lg shadow-[#161925] p-2 cursor-pointer hover:scale-105 duration-300">
               <a href="https://medium.com/@anselmelvis62" target="_blank">
                 <FaMedium />
               </a>
             </div>
 
-            <div className="animate-bounce rounded-full shadow-lg shadow-[#161925] p-2 cursor-pointer hover:scale-105 duration-300">
+            <div className=" rounded-full shadow-lg shadow-[#161925] p-2 cursor-pointer hover:scale-105 duration-300">
               <a href="https://hackernoon.com/u/theelvace" target="_blank">
                 <IoMdWatch />
               </a>
             </div>
 
-            <div className=" animate-bounce rounded-full shadow-lg shadow-[#161925] p-2 cursor-pointer hover:scale-105 duration-300">
+            <div className="  rounded-full shadow-lg shadow-[#161925] p-2 cursor-pointer hover:scale-105 duration-300">
               <a href="mailto:anselmelvis62@gmail.com" target="_blank">
                 {" "}
                 <BsFillPersonLinesFill />

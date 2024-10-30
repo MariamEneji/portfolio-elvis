@@ -9,11 +9,11 @@ const Hero = () => {
       <div className="md:w-2/3 transition-opacity">
         
 
-        <h1 className="text-5xl md:text-7xl  py-4 border-b border-primary ">
+        <h1 className="text-5xl md:text-7xl  py-8 border-b border-primary ">
           ELVIS ANSELM
          
         </h1>
-        <h1 className="text-2xl md:2xl  py-2 tracking-wider ">
+        <h1 className="text-2xl md:2xl  py-3 tracking-wider ">
           BLOCKCHAIN WRITER & COMMUNITY MANAGER
         </h1>
 
