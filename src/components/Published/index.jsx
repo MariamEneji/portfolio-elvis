@@ -57,12 +57,12 @@ const Published = () => {
 <div className=' flex justify-center gap-8 items-center flex-col text-center'>
 
   
-    <Image src={skill.image} alt='alt' width={1000} height={1000} className='w-2/3 h-60 md:h-60 rounded-lg   '  />
+    <Image src={skill.image} alt='alt' width={800} height={800} className='w-64 md:w-2/3 h-60 md:h-60 rounded-lg   '  />
 
     
 
 
-    <a href={skill.url} target='blank' className=' animate-pulse hover:scale-110 underline md:text-2xl text-white z-10 '>{skill.title}</a>
+    <a href={skill.url} target='blank' className=' w-60 animate-pulse hover:scale-110 underline md:text-2xl text-white z-10 '>{skill.title}</a>
    
                 
                 </div>

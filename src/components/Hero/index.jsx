@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="md:w-2/3 transition-opacity">
         
 
-        <h1 className="text-5xl md:text-7xl  py-8 border-b border-primary ">
+        <h1 className="text-5xl md:text-7xl font-bold  py-8 border-b border-primary ">
           ELVIS ANSELM
          
         </h1>

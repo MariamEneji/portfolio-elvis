@@ -19,7 +19,7 @@ const PortfolioComponent
 
        
 
-       <h1 className='text-center text-4xl tracking-widest'>MY WORK</h1>
+       <h1 className='text-center font-bold pt-10 text-4xl tracking-widest'>MY WORK</h1>
    
        
 

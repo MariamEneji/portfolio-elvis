@@ -61,7 +61,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 right-0 top-20  md:hidden text-xl bg-secondary text-right  flex flex-col  p-4 ease-in duration-1000 "
+              ? "fixed left-0 right-0 top-20  md:hidden text-xl bg-transparent backdrop-blur-lg text-right  flex flex-col  p-4 ease-in duration-1000 "
               : "hidden"
           }
           onClick={handleNav}
